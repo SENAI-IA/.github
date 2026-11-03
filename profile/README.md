@@ -67,12 +67,24 @@ Repositórios também começam pelo código da turma, sempre em minúsculas e co
 - O apelido da equipe pode aparecer na descrição ou no README do repositório, **não no nome**.
 - Ao fim da turma, os repositórios são **arquivados** (somente leitura) e permanecem como portfólio.
 
+### Regras para criar um repositório
+
+1. **Nome no padrão:** `{turma}-e{nn}-{projeto}`, tudo em minúsculas, com hífens, sem acentos nem espaços.
+   O `{projeto}` deve ser curto e descritivo: `iapd-26t1-e04-chatbot-rh`.
+2. **Vincule sua equipe logo após criar:** em *Settings → Collaborators and teams → Add teams*, adicione o time da sua equipe (ex.: `IAPD-26T1-E04`) com permissão **Admin**.
+   Sem isso, seus colegas só conseguem **ler** o repositório.
+3. **Conteúdo mínimo:**
+   - **Descrição** preenchida (aparece na lista da organização).
+   - **README** com objetivo do projeto, integrantes da equipe e como executar.
+4. **Não dê acesso a outras equipes nem a pessoas de fora.** As demais equipes já podem ler tudo; escrita é só da própria equipe.
+5. **Repositórios fora do padrão** são apontados pelo professor e devem ser corrigidos pela equipe.
+
 ---
 
 ## ✅ Resumo rápido
 
 - Código da turma: `IAPD-26T1`
 - Equipe: `IAPD-26T1-E03` (ou `IAPD-26T1-E03 - Apelido`)
-- Repositório: `iapd-26t1-e03-meu-projeto`
+- Repositório: `iapd-26t1-e03-meu-projeto`, com a equipe vinculada como **Admin**
 
 Dúvidas? Fale com o time **@SENAI-IA/professores**.
