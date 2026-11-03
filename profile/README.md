@@ -62,7 +62,8 @@ Repositórios também começam pelo código da turma, sempre em minúsculas e co
 | Tipo                | Padrão                              | Exemplo                          |
 |---------------------|-------------------------------------|----------------------------------|
 | Projeto da equipe   | `{turma}-e{nn}-{projeto}`           | `iapd-26t1-e03-techstorebot`     |
-| Material de aula    | `{turma}-aula-{AAAA-MM-DD}`         | `iapd-26t1-aula-2026-04-23`      |
+| Materiais da turma  | `{turma}-materiais`                 | `iapd-26t1-materiais`            |
+| Materiais do curso  | `{curso}-materiais`                 | `iapd-materiais`                 |
 
 - O apelido da equipe pode aparecer na descrição ou no README do repositório, **não no nome**.
 - Ao fim da turma, os repositórios são **arquivados** (somente leitura) e permanecem como portfólio.
@@ -78,6 +79,49 @@ Repositórios também começam pelo código da turma, sempre em minúsculas e co
    - **README** com objetivo do projeto, integrantes da equipe e como executar.
 4. **Não dê acesso a outras equipes nem a pessoas de fora.** As demais equipes já podem ler tudo; escrita é só da própria equipe.
 5. **Repositórios fora do padrão** são apontados pelo professor e devem ser corrigidos pela equipe.
+
+---
+
+## 📖 Materiais de aula
+
+Materiais são publicados **somente pelos professores**. Alunos têm acesso de leitura.
+
+| Repositório          | Conteúdo                                                                  |
+|----------------------|---------------------------------------------------------------------------|
+| `{curso}-materiais`  | Material **reutilizável** em qualquer turma do curso: apostilas, notebooks base, referências |
+| `{turma}-materiais`  | Material **da turma**: slides, exercícios e links de cada aula            |
+
+Dentro do repositório da turma, há uma pasta por aula:
+
+```
+iapd-26t1-materiais/
+ └── aulas/
+      ├── 2026-11-03-engenharia-de-contexto/
+      └── 2026-11-05-cache-api/
+```
+
+Encontrou um erro ou tem uma sugestão? Abra uma **issue** no repositório do material.
+
+---
+
+## 🧑‍💻 Trabalhos individuais
+
+Atividades individuais ficam **dentro do repositório da equipe**, em uma pasta com o seu usuário do GitHub:
+
+```
+iapd-26t1-e04-chatbot-rh/
+ ├── (projeto da equipe)
+ └── individual/
+      ├── seu-usuario/
+      │    └── atividade-01/
+      └── usuario-do-colega/
+```
+
+1. **Cada aluno mexe apenas na própria pasta.** A pasta dos colegas é somente leitura, por combinação da equipe.
+2. **Trabalhe em uma branch própria:** `seu-usuario/atividade-01`, e leve para a `main` por **Pull Request**.
+3. **Entrega:** o professor avalia o conteúdo da sua pasta ou o PR correspondente.
+
+> O histórico de commits registra quem alterou cada arquivo.
 
 ---
 
