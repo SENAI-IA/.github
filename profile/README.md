@@ -51,7 +51,9 @@ IAPD-26T1                         ← turma inteira
 2. **Apelido é opcional** e vai **depois** do código, separado por ` - `:
    `IAPD-26T1-E02 - Byte Bandits`
 3. **Escolham o apelido no início da turma.** Renomear o time muda o link e as menções (`@SENAI-IA/...`).
-4. **Peça o apelido ao professor.** É ele quem aplica a mudança, para garantir que o código continue intacto.
+4. **A própria equipe edita o nome e o avatar.** Todos os integrantes são *maintainers* do seu time: em *Teams → seu time → Settings*, dá para colocar o apelido e trocar a foto. **Nunca apague nem altere o código** (`IAPD-26T1-E02`); times fora do padrão são corrigidos pelo professor.
+5. **Avatar com bom senso:** imagem própria ou livre de direitos, sem conteúdo ofensivo.
+6. **Mexa apenas no seu time.** Como *maintainer*, você pode adicionar à equipe colegas que já são membros da organização, mas não remova ninguém nem mude a equipe de alguém sem combinar com o professor.
 
 ---
 
