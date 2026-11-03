@@ -63,7 +63,7 @@ Repositórios também começam pelo código da turma, sempre em minúsculas e co
 |---------------------|-------------------------------------|----------------------------------|
 | Projeto da equipe   | `{turma}-e{nn}-{projeto}`           | `iapd-26t1-e03-techstorebot`     |
 | Materiais da turma  | `{turma}-materiais`                 | `iapd-26t1-materiais`            |
-| Materiais do curso  | `{curso}-materiais`                 | `iapd-materiais`                 |
+| Apoio do professor  | `{turma}-{projeto}`                 | `iapd-26t1-pagamentos-api`       |
 
 - O apelido da equipe pode aparecer na descrição ou no README do repositório, **não no nome**.
 - Ao fim da turma, os repositórios são **arquivados** (somente leitura) e permanecem como portfólio.
@@ -88,19 +88,26 @@ Materiais são publicados **somente pelos professores**. Alunos têm acesso de l
 
 | Repositório          | Conteúdo                                                                  |
 |----------------------|---------------------------------------------------------------------------|
-| `{curso}-materiais`  | Material **reutilizável** em qualquer turma do curso: apostilas, notebooks base, referências |
-| `{turma}-materiais`  | Material **da turma**: slides, exercícios e links de cada aula            |
+| `{turma}-materiais`  | Material **da turma**: slides, atividades e entregáveis de cada aula      |
+| `{turma}-{projeto}`  | Repositórios **de apoio** criados pelo professor e usados nas atividades (ex.: uma API para exercícios de code review) |
 
-Dentro do repositório da turma, há uma pasta por aula:
+Cada turma tem **um** repositório de materiais, com uma pasta por aula na raiz:
 
 ```
 iapd-26t1-materiais/
- └── aulas/
-      ├── 2026-11-03-engenharia-de-contexto/
-      └── 2026-11-05-cache-api/
+ ├── 2026-10-19-iapd-26t1-s01-aula-01-ensinando-maquinas/
+ │    ├── IAPD-26T1 - S01 - Aula 01 - 2026-10-19 - Ensinando maquinas.pdf
+ │    ├── README.md        ← agenda, atividades e entregáveis da aula
+ │    └── atividades/      ← uma subpasta por atividade
+ ├── prompts/              ← prompts compartilhados (aceita Pull Request)
+ └── skills/               ← skills compartilhadas (aceita Pull Request)
 ```
 
-Encontrou um erro ou tem uma sugestão? Abra uma **issue** no repositório do material.
+- **Nome da pasta:** `AAAA-MM-DD-{turma}-sNN-aula-NN-tema` (data, turma, semana, aula e tema).
+- **`prompts/` e `skills/`** são as únicas pastas abertas a contribuição dos alunos, sempre por **Pull Request** a partir de um *fork* (alunos têm só leitura no repositório de materiais). O professor revisa e faz o merge.
+- Encontrou um erro ou tem uma sugestão? Abra uma **issue** no repositório de materiais.
+
+> Exemplo real: [iapd-26t3-materiais](https://github.com/SENAI-IA/iapd-26t3-materiais) e [iapd-26t3-pagamentos-api](https://github.com/SENAI-IA/iapd-26t3-pagamentos-api).
 
 ---
 
